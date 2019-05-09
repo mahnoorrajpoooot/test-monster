@@ -1,0 +1,39 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+body{
+    font-family: font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+ul{
+    list-style: none;
+    float: right;
+}
+.sec{
+    width:100px;
+    height:600px;
+    background-color: lightgray
+    float: left;
+    margin-top:10px;
+}
+ header li{
+    display: inline-block;
+    margin: right;
+    padding: 0px 20px 0px 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    float: right;
+ }
+ img{
+     position: absolute;
+ }
+.book-item{
+     width: 200px ;
+     position: absolute;
+     top: 250px;
+     left:300px;
+     border-style: solid;
+     border-color: none;
+ }
+.rupee{
+    color: red;
+}
